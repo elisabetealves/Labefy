@@ -9,13 +9,21 @@
 
 <h1>
     <br>
+    <p style="font-weight: bold;">🔗 Link do projeto no Surge</p>
+</h1>
+
+https://futuristic-smile.surge.sh/
+
+<br>
+
+<h1>
+    <br>
     <p style="font-weight: bold;">🧠 Contexto</p>
 </h1>
 
 O objetivo foi criar um aplicativo para mostar novas mensagens.
 
 - Layout
-- Link do projeto do Surge
 - Tecnologias Utilizadas
 - Requisitos
 - O que esta funcionando
@@ -52,15 +60,6 @@ O objetivo foi criar um aplicativo para mostar novas mensagens.
 </p>
 
 ---
-
-<h1>
-    <br>
-    <p style="font-weight: bold;">🔗 Link do projeto no Surge</p>
-</h1>
-
-https://pretty-lizards.surge.sh/
-
-<br>
 
 <h1>
     <br>
