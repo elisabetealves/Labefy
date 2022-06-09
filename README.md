@@ -37,26 +37,32 @@ O objetivo foi criar um aplicativo para mostar novas mensagens.
     <p style="font-weight: bold;">🎨 Layout</p>
 </h1>
 
-## Mobile
+## web
 
 <p align="center">
-     <img src="./images/img1.png"  width="200px">   
-     <img src="./images/img2.png"  width="200px">
+     <img src="./images/img1.png"  width="400px">   
+     <img src="./images/img2.png"  width="400px">
 </p>
 
 <p align="center">
-     <img src="./images/img3.png"  width="200px">
-     <img src="./images/img4.png"  width="200px">
+     <img src="./images/img3.png"  width="400px">
+     <img src="./images/img4.png"  width="400px">
      </p>
 
 <p align="center">
-     <img src="./images/img5.png"  width="200px">
-     <img src="./images/img6.png"  width="200px"> 
+     <img src="./images/img5.png"  width="400px">
+     <img src="./images/img6.png"  width="400px"> 
 </p>
 
 <p align="center">
-     <img src="./images/img7.png"  width="200px">   
-     <img src="./images/img8.png"  width="200px">   
+     <img src="./images/img7.png"  width="400px">   
+     <img src="./images/img8.png"  width="400px">   
+</p>
+
+## Mobile
+
+<p align="center">
+     <img src="./images/mobile1.png">   
 </p>
 
 ---
