@@ -6,6 +6,7 @@ import AddMusica from "../AddMusica"
 import styled from "styled-components"
 import lixeira from "../../imagem/lixeira.png"
 import ImgFundo from "../../imagem/fundo.jpg"
+import ImgMobile from "../../imagem/mobile.png"
 //import ReactPlayer from "react-player"
 
 
@@ -127,6 +128,38 @@ const MainContainer = styled.div`
    margin-left: 800px; 
    text-align: center;
   }
+
+  @media(max-width:768px){
+      
+   background-image: url(${ImgMobile}); 
+      height: 100vh;
+      background-repeat: round;
+      background-size: center;
+
+      h1{
+         font-size: 4.3rem;
+         transition: 0.5s;
+         //animation: teste 2s ease-in-out normal;
+         margin-left: 10px;
+         margin-top: -170px;
+      }
+  }
+
+  @media(max-width:480px){
+
+      background-image: url(${ImgMobile}); 
+      padding-bottom: 100px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left;
+         
+      h1{
+         font-size: 2rem;
+         transition: 0.5s;
+         margin-left: -25px;
+         margin-top: -10px;
+      }
+  }
 `;
 
 const ListaMusicas = styled.li`
@@ -171,6 +204,73 @@ const ListaMusicas = styled.li`
       color: #fff;
    }
   }
+
+  @media(max-width:768px){
+   //margin: 5px;
+   width: 500px; 
+   height: 125px;
+   margin-left: 10px;
+
+   div{
+      margin-bottom: -1px ;
+      margin-top: -10px;
+      font-size: 22px;
+
+      p{
+         margin-right: 90px;
+      }
+   }
+   button{
+      font-size: 2.5rem;
+      width: 3.5rem;
+      margin-left: 5px;
+      padding: 6px;
+
+      img{
+         width: 2rem; 
+      }
+   }
+   audio{
+      margin-right: -20px;
+      width: 400px;
+   }
+  }
+
+
+  @media(max-width:480px){
+      width: 360px; 
+      height: 95px;
+      margin-left: -20px;
+
+   div{
+      margin-bottom: -1px ;
+      margin-top: -10px;
+      font-size: 17px;
+
+      p{
+         margin-right: 80px;
+      }
+   }
+
+   button{
+      margin-top: 8px;
+      font-size: 1.5rem;
+      width: 3rem;
+      margin-left: 20px;
+      padding: 5px;
+
+      img{
+         width: 1.5rem; 
+      }
+   }
+
+   audio{
+      margin-left: -5px;
+      width: 280px;
+      height: 45px;
+      margin-top: 8px;
+   }
+  }
 `
 
 const DivButton = styled.div`
@@ -199,5 +299,27 @@ const DivButton = styled.div`
     color: #DC143C;
     background-color: black;
   }
+  }
+
+  @media(max-width:768px){
+
+      button {
+         width: 350px;
+         height: 3.5rem;
+         font-size: 1.3rem;
+         margin-top: -20px;
+         position: relative;
+         left: 20px;
+      }
+  }
+  @media(max-width:480px){
+      button {
+         height: 3rem;
+         font-size: 1rem;
+         margin-top: -10px;
+         position: relative;
+         left: -5px;
+         margin-bottom: 150px;
+      }
   }
 `;

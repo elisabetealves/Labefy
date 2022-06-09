@@ -4,6 +4,7 @@ import { BASE_URL } from '../../constants/urls'
 import { HEADERS } from "../../constants/headers"
 import styled from "styled-components"
 import ImgFundo from "../../imagem/fundo1.png"
+import ImgMobile from "../../imagem/mobile.png"
 
 
 class CriarPlaylist extends React.Component {
@@ -61,8 +62,10 @@ const MainContainer = styled.div`
    box-sizing: border-box;
    //background-color: #11111170;
    background-image: url(${ImgFundo});
-   background-size: contain;
-   background-position: center;
+   /* background-size: contain;
+   background-position: center; */
+   background-repeat: round;
+   background-size: center;
    background-blend-mode: color-burn;
    overflow: hidden;
    color: #cccccc;
@@ -78,17 +81,42 @@ const MainContainer = styled.div`
       font-size: 4rem;
       margin-top: 0px;
       animation: teste 2s ease-in-out normal;
-    
-     
   }
-  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    background-color: black;
-    h2 {
-       position: relative;
-      padding-top: 4rem;
-      font-size: 2rem;
-      color: #1e90ff;
-    }
+
+
+  @media(max-width:768px){
+
+      background-image: url(${ImgMobile}); 
+      height: 100vh;
+      background-repeat: round;
+      background-size: center;
+
+      h1{
+         font-size: 5rem;
+         transition: 0.5s;
+         margin-top: -20rem;
+         //animation: teste 2s ease-in-out normal;
+         margin-left: 10px;
+         margin-bottom: 10px;
+      } 
+  } 
+
+  @media(max-width:480px){
+
+      //background-color: #111111;
+      background-image: url(${ImgMobile}); 
+      padding-bottom: 100px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left;
+         
+      h1{
+         font-size: 2.6rem;
+         transition: 0.5s;
+         margin-top: -20rem;
+         //animation: teste 2s ease-in-out normal;
+         margin-left: 1px;
+      }
   }
 `;
 
@@ -112,11 +140,7 @@ const Label = styled.div`
     color: #DC143C;
     padding-left: 8px;
    }
-
-  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    width: 13rem;
-    
-  }
+  
   }
  
   button{
@@ -142,6 +166,51 @@ const Label = styled.div`
                background-color: black;
             }
         }
+
+      @media(max-width:768px){
+         input{
+            width: 25rem;
+            height: 3.5rem;
+            font-size: 1.3rem;
+            margin-top: 1.8rem;
+            margin-left: 26px;
+
+            ::placeholder {
+               font-size: 1.5rem;
+            }
+         }
+
+         button{
+
+            margin-top: 4rem;
+            margin-left: 140px;
+            width: 12rem;
+            height: 3.5rem;
+            font-size: 1.5rem;
+         }
+      } 
+
+      @media(max-width:480px){
+         input{
+            width: 18rem;
+            height: 2.5rem;
+            font-size: 1.2rem;
+            margin-top: 1.8rem;
+            margin-left: 5px;
+               
+            ::placeholder {
+               font-size: 1rem;
+            }
+         }
+
+         button{
+            margin-top: 3rem;
+            margin-left: 80px;
+            width: 10rem;
+            height: 2.8rem;
+            font-size: 1.2rem;
+         }
+      }
 `;
 
 const ButtonVisualizar = styled.button`
@@ -161,4 +230,20 @@ const ButtonVisualizar = styled.button`
          color: #DC143C;
          background-color: black;
       }
+   
+   @media(max-width:768px){
+      margin-top: 2rem;
+      margin-left: 30px;
+      width: 20rem;
+      height: 3.5rem;
+      font-size: 1.5rem;
+   } 
+
+   @media(max-width:480px){
+      margin-top: 2rem;
+      margin-left: 20px;
+      width: 15rem;
+      height: 3rem;
+      font-size: 1.2rem;
+   }
 `;

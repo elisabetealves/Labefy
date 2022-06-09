@@ -123,6 +123,46 @@ const MainContainer = styled.div`
    }
 
   }
+
+  @media(max-width:768px){
+      margin-left: 80px;
+      margin-top: -30px;
+      h2 {
+         padding-top: 0.1rem;
+         margin-left:-150px;
+         margin-right:-90px;
+      }
+
+      span{
+         button {
+         margin-top: 1.8rem;
+         width: 11rem;
+         height: 3.5rem;
+         font-size: 1.3rem;
+         margin-left: -40px;
+         }
+      }
+  }
+  @media(max-width:480px){
+      margin-left: 80px;
+      margin-top: -30px;
+      h2 {
+         padding-top: 0.1rem;
+         margin-left:-170px;
+         margin-right:-90px;
+         font-size: 22px;
+      }
+
+      span{
+         button {
+         margin-top: 1.8rem;
+         width: 9rem;
+         height: 3rem;
+         font-size: 1.1rem;
+         margin-left: -80px;
+         }
+      }
+  }
 `;
 
 const Form = styled.form`
@@ -145,4 +185,31 @@ const Form = styled.form`
    }
 
   }
+
+  @media(max-width:768px){
+      margin-top: 0.2rem;
+      input {
+      width: 25rem;
+      height: 3rem;
+      font-size: 1.6rem;
+      margin-left: -55px;
+
+      ::placeholder {
+         font-size: 24px;
+      }
+   }
+  }
+  @media(max-width:480px){
+      margin-top: 0.2rem;
+         input {
+         width: 21rem;
+         height: 2.5rem;
+         font-size: 1.2rem;
+         margin-left: -89px;
+
+         ::placeholder {
+            font-size: 20px;
+         }
+      }   
+   }
 `;
