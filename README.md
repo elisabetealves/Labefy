@@ -23,6 +23,7 @@ https://futuristic-smile.surge.sh/
 
 O objetivo foi criar um aplicativo para mostar novas mensagens.
 
+- Como rodar o projeto
 - Layout
 - Tecnologias Utilizadas
 - Requisitos
@@ -32,12 +33,25 @@ O objetivo foi criar um aplicativo para mostar novas mensagens.
 
 <br>
 
+# 💻 Como rodar o projeto localmente
+
+Siga os passos e inclua as informações abaixo:
+
+| Passo                     | Comando/informação |
+| ------------------------- | ------------------ |
+| Faça o fork               | `botão de forkar`  |
+| ou Faça o clone           | `git clone`        |
+| Instale as dependências   | `npm i`            |
+| utilize o script de start | `npm start`        |
+
+<br>
+
 <h1>
     <br>
     <p style="font-weight: bold;">🎨 Layout</p>
 </h1>
 
-## web
+## 🖥️ web
 
 <p align="center">
      <img src="./images/img1.png"  width="400px">   
@@ -59,7 +73,7 @@ O objetivo foi criar um aplicativo para mostar novas mensagens.
      <img src="./images/img8.png"  width="400px">   
 </p>
 
-## Mobile
+## 📱 Mobile
 
 <p align="center">
      <img src="./images/mobile1.png">   
@@ -82,6 +96,20 @@ O objetivo foi criar um aplicativo para mostar novas mensagens.
 </div>
 
 <br>
+
+<h1>
+    <br>
+    <p style=" font-weight: bold;">📌 Bibliotecas Utilizadas</p>
+</h1>
+
+ <div style="display: inline_block"><br>
+
+- npm
+- styled-components
+- axios
+- react-icons
+
+</div>
 
 <h1>
     <br>
@@ -127,9 +155,15 @@ As funcionalidades do projeto estão listadas abaixo. Colocamos na ordem de prio
     <p style="font-weight: bold;">👋 Saudações, Eli!</p>
 </h1>
 
-_Qualquer dúvida ou sugestão, chama no contatinho!_ [LinkedIn](https://www.linkedin.com/in/elisabete-a-santos/)
+_Caso queira contribuir com meu projeto, será totalmente bem-vindx!!!_
+
+_Qualquer dúvida ou sugestão, chama no contatinho!_
 
  <img  style="border-radius: 10%;" src="https://i.picasion.com/pic91/8dd880c47cfc761e805745c941097adb.gif" alt="Gif Yeah" width="200">
+
+<br>
+
+<a href="https://www.linkedin.com/in/elisabete-a-santos/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 <br>
 

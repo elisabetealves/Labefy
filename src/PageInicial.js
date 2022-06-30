@@ -5,17 +5,17 @@ import ImgFundo from "../src/imagem/fundo1.png"
 import ImgMobile from "../src/imagem/mobile.png"
 
 
-class PageInicial extends React.Component {
-   render() {
-      return (
-         <ContainerInicial>
-            <FaSpotify />
-            <h1>Labe<span>fy</span></h1>
-            <p>Onde você cria sua própria playlist e escuta onde e quando quiser.</p>
-            <button onClick={() => this.props.goPagina("criarPlaylist")}>Entrar</button>
-         </ContainerInicial>
-      )
-   }
+const PageInicial = (props) => {
+   
+   return (
+      <ContainerInicial>
+         <FaSpotify />
+         <h1>Labe<span>fy</span></h1>
+         <p>Onde você cria sua própria playlist e escuta onde e quando quiser.</p>
+         <button onClick={() => props.goPagina("criarPlaylist")}>Entrar</button>
+      </ContainerInicial>
+   )
+   
 }
 
 export default PageInicial
