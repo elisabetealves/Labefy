@@ -95,8 +95,15 @@ Siga os passos e inclua as informações abaixo:
   <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
  
 </div>
-
 <br>
+
+<h1>
+    <p style=" font-weight: bold;">📚 Bibliotecas utilizadas</p>
+</h1>
+
+- [styled-components](https://styled-components.com/)
+- [axios](https://github.com/axios/axios)
+- [react-icons](https://react-icons.github.io/react-icons)
 
 <h1>
     <br>
