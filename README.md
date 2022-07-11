@@ -23,13 +23,14 @@ https://futuristic-smile.surge.sh/
 
 O objetivo foi criar um aplicativo para mostar novas mensagens.
 
-- Como rodar o projeto
-- Layout
-- Tecnologias Utilizadas
-- Requisitos
-- O que esta funcionando
-- O que não está funcionando
-- Saudações da Eli!
+- 💻 Como rodar o projeto
+- 🎨 Layout
+- 🛠️ Tecnologias Utilizadas
+- 📚 Biblotecas Utilizadas
+- ⚙️ Requisitos
+- ✨ O que esta funcionando
+- ❌ O que não está funcionando
+- 👋 Saudações da Eli!
 
 <br>
 
